@@ -6,11 +6,7 @@ export default function App() {
   const [number, setNumber] = useState(0)
   return (
     <View style={styles.container}>
-      <Text style={{ fontSize: 50}}> 결과 : {number}</Text>
-      <View style={{ flexDirection: "row", gap: 10  }}>
-        <Button title="증가" onPress={()=> { setNumber(number+1)}} />
-        <Button title="감소" onPress={()=> { setNumber(number-1)}}/>
-      </View>
+      <Text style={{ fontSize: 50}}>리액트 네이티브</Text>
       <StatusBar style="auto" />
     </View>
   );
